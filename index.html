@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Today</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <input type="text" placeholder="Search Location" spellcheck="false" />
+        <i class="ri-search-line"></i>
+      </div>
+      <div class="full-content">
+        <div class="main-content">
+          <img class="weather-img" src="img/sun.png" alt="Normal weather" />
+          <h1 class="temp">22*</h1>
+          <h3 class="place">New York</h3>
+        </div>
+        <div class="footer">
+          <div class="sub-footer">
+            <img class="foot-img" src="img/humidity.png" alt="humidity" />
+            <div class="foot-text">
+              <h1 class="humidity">50%</h1>
+              <p>Humidity</p>
+            </div>
+          </div>
+          <p class="in-bw-text">
+            "Climate is what we expect, weather is what we get." <br>~ Mark Twain</p>
+          </p>
+          <div class="sub-footer">
+            <img class="foot-img" src="img/wind.png" alt="wind speed" />
+            <div class="foot-text">
+              <h1 class="wind">15Km/h</h1>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="place-text">
+        <p>🌤️Enter location to check weather⛅</p>
+      </div>
+    </div>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
